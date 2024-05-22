@@ -8,6 +8,7 @@ function App() {
   const [contador, setContador] = useState(0)
   return (
     <div className="App">
+      <p>Hola</p>
       <Contador contador={contador} setContador={setContador}/>
     </div>
   );
